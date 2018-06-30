@@ -9,3 +9,5 @@ D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp\obj\
 D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp\obj\Debug\netstandard2.0\XamlC.stamp
 D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp\obj\Debug\netstandard2.0\SeriesUp.dll
 D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp\obj\Debug\netstandard2.0\SeriesUp.pdb
+D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp\obj\Debug\netstandard2.0\Views\DetailView.xaml.g.cs
+D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp\obj\Debug\netstandard2.0\Views\MainView.xaml.g.cs

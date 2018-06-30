@@ -1,3 +1,5 @@
+using SeriesUp.Services.Navigation;
+using SeriesUp.ViewModel.Base;
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -10,10 +12,23 @@ namespace SeriesUp
 		public App ()
 		{
 			InitializeComponent();
+            BuildDependencies();
+            IniNavigation();
             
 		}
 
-		protected override void OnStart ()
+        async void IniNavigation()
+        {
+            var navigationService = ViewModelLocator.Instance.Resolve<INavigationService>();
+            await navigationService.Initialize();
+        }
+
+        private void BuildDependencies()
+        {
+            ViewModelLocator.Instance.Build();
+        }
+
+        protected override void OnStart ()
 		{
 			// Handle when your app starts
 		}

@@ -1,4 +1,5 @@
 ﻿using Autofac;
+using SeriesUp.Services.Navigation;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -9,8 +10,8 @@ namespace SeriesUp.ViewModel.Base
     {
         IContainer _container;
         ContainerBuilder _containerBuilder;
-        static readonly ViewModelLocator _instance = new ViewModelLocator();
 
+        static readonly ViewModelLocator _instance = new ViewModelLocator();
         public static ViewModelLocator Instance
         {
             get { return _instance; }
@@ -19,21 +20,29 @@ namespace SeriesUp.ViewModel.Base
         public ViewModelLocator()
         {
             _containerBuilder = new ContainerBuilder();
+
+            _containerBuilder.RegisterType<NavigationService>().As<INavigationService>();
+            _containerBuilder.RegisterType<MainViewModel>();
+            _containerBuilder.RegisterType<DetailViewModel>();
         }
 
-        public T Resolve<T>() => _container.Resolve<T>();
+        public T Resolve<T>()
+        {
+            return _container.Resolve<T>();
+        }
 
         public object Resolve(Type type)
         {
             return _container.Resolve(type);
         }
 
-        public void Register<TInterface, TImplementation>() where TImplementation : TInterface
+        public void Register<TInterface, TImplementation>()
+            where TImplementation : TInterface
         {
             _containerBuilder.RegisterType<TImplementation>().As<TInterface>();
         }
 
-        public void Register<T>() where T: class
+        public void Register<T>() where T : class
         {
             _containerBuilder.RegisterType<T>();
         }

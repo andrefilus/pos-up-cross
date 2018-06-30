@@ -4,9 +4,13 @@ D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp.Andr
 D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp.Android\obj\Debug\android\assets\Java.Interop.dll
 D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp.Android\obj\Debug\android\assets\Mono.Android.dll
 D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp.Android\obj\Debug\android\assets\mscorlib.dll
+D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp.Android\obj\Debug\android\assets\Newtonsoft.Json.dll
+D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp.Android\obj\Debug\android\assets\Refit.dll
 D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp.Android\obj\Debug\android\assets\SeriesUp.dll
 D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp.Android\obj\Debug\android\assets\System.Core.dll
 D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp.Android\obj\Debug\android\assets\System.dll
+D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp.Android\obj\Debug\android\assets\System.IO.Compression.dll
+D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp.Android\obj\Debug\android\assets\System.Net.Http.dll
 D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp.Android\obj\Debug\android\assets\System.Xml.dll
 D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp.Android\obj\Debug\android\assets\System.Xml.Linq.dll
 D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp.Android\obj\Debug\android\assets\Xamarin.Android.Support.Animated.Vector.Drawable.dll
@@ -48,7 +52,6 @@ D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp.Andr
 D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp.Android\obj\Debug\android\assets\System.Dynamic.Runtime.dll
 D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp.Android\obj\Debug\android\assets\System.ObjectModel.dll
 D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp.Android\obj\Debug\android\assets\System.Runtime.InteropServices.dll
-D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp.Android\obj\Debug\android\assets\System.Net.Http.dll
 D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp.Android\obj\Debug\android\assets\System.Runtime.Serialization.dll
 D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp.Android\obj\Debug\android\assets\System.ServiceModel.Internals.dll
 D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp.Android\obj\Debug\android\assets\netstandard.dll
@@ -57,7 +60,6 @@ D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp.Andr
 D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp.Android\obj\Debug\android\assets\System.Transactions.dll
 D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp.Android\obj\Debug\android\assets\System.Diagnostics.StackTrace.dll
 D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp.Android\obj\Debug\android\assets\System.Globalization.Extensions.dll
-D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp.Android\obj\Debug\android\assets\System.IO.Compression.dll
 D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp.Android\obj\Debug\android\assets\System.IO.Compression.FileSystem.dll
 D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp.Android\obj\Debug\android\assets\System.Runtime.Serialization.Xml.dll
 D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp.Android\obj\Debug\android\assets\System.Runtime.Serialization.Primitives.dll

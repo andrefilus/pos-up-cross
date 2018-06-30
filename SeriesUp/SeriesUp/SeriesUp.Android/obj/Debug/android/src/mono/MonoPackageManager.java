@@ -109,6 +109,8 @@ class MonoPackageManager_Resources {
 		"SeriesUp.Android.dll",
 		"Autofac.dll",
 		"FormsViewGroup.dll",
+		"Newtonsoft.Json.dll",
+		"Refit.dll",
 		"SeriesUp.dll",
 		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",
 		"Xamarin.Android.Support.Annotations.dll",
