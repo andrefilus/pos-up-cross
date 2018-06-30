@@ -14,7 +14,7 @@ namespace SeriesUp.Views
 	{
 		public MainView ()
 		{
-			InitializeComponent ();
+			InitializeComponent();
 		}
 	}
 }

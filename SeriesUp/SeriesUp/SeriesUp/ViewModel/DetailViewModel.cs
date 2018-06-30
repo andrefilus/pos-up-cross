@@ -61,8 +61,10 @@ namespace SeriesUp.ViewModel
             Title = serie.Name;
             Name = serie.OriginalName;
             Overview = serie.Overview;
-            Poster = serie.PosterPath;
-            Backdrop = serie.BackdropPath;
+            //Poster = serie.PosterPath;
+            Poster = serie.Poster;
+            //Backdrop = serie.BackdropPath;
+            Backdrop = serie.BackDrop;
             ReleaseDate = serie.ReleaseDate;
             Votes = serie.VoteAverage;
 

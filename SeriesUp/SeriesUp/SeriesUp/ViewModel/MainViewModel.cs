@@ -39,6 +39,8 @@ namespace SeriesUp.ViewModel
         public override async Task InitializeAsync(object navigationData)
         {
             await base.InitializeAsync(navigationData);
+
+            await LoadDataAsync();
         }
 
         async Task LoadDataAsync()

@@ -39,6 +39,7 @@ namespace SeriesUp.ViewModel.Base
                 };
 
                 return RestService.For<ITmdbApi>(client);
+
             }).As<ITmdbApi>().InstancePerDependency();
 
         }
