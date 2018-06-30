@@ -20,10 +20,8 @@ namespace SeriesUp.Models
         [JsonProperty("backdrop_path")]
         public string BackdropPath { get; set; }
 
-        public string BackDrop
-        {
-            get { return $"{AppSettings.ApiImageBaseUrl}{BackdropPath}"; }
-        }
+        [JsonIgnore]
+        public string Backdrop { get { return $"{AppSettings.ApiImageBaseUrl}{BackdropPath}"; } }
 
         [JsonProperty("id")]
         public long Id { get; set; }
@@ -38,12 +36,9 @@ namespace SeriesUp.Models
         public string PosterPath { get; set; }
 
         [JsonIgnore]
-        public string Poster
-        {
-            get { return $"{AppSettings.ApiImageBaseUrl}{PosterPath}"; }
-        }
+        public string Poster { get { return $"{AppSettings.ApiImageBaseUrl}{PosterPath}"; } }
 
         [JsonIgnore]
-        public string ReleaseDate { get { return $"{FirstAirDate:dd/MM/yy}"; } }
+        public string ReleaseDate { get { return $"{FirstAirDate:dd/mm/yy}"; } }
     }
 }

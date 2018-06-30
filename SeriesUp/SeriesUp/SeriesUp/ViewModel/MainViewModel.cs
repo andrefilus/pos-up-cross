@@ -52,7 +52,7 @@ namespace SeriesUp.ViewModel
         private void AddItens(SerieResponse result)
         {
             Items.Clear();
-            result.Series.ToList()?.ForEach(i => Items.Add(i));
+            result?.Series.ToList()?.ForEach(i => Items.Add(i));
 
         }
     }

@@ -22,7 +22,7 @@
                         HorizontalOptions="FillAndExpand">
 
                         <Image 
-                            Source="{Binding PosterPath}"
+                            Source="{Binding Poster}"
                             VerticalOptions="Start"
                             HorizontalOptions="Start"
                             HeightRequest="120"/>

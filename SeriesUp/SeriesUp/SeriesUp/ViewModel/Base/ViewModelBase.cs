@@ -12,11 +12,15 @@ namespace SeriesUp.ViewModel.Base
         protected readonly INavigationService NavigationService;
 
         public string _title;
-        public string Title { get { return _title; } set { _title = value; OnPropertyChanged(); } }
+        public string Title {
+            get { return _title; }
+            set { _title = value; OnPropertyChanged(); }
+        }
 
         public ViewModelBase(string title)
         {
             Title = title;
+            NavigationService = ViewModelLocator.Instance.Resolve<INavigationService>();
         }
 
         public virtual Task InitializeAsync(object navigationData)
