@@ -1,0 +1,11 @@
+D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp\bin\Debug\netstandard2.0\SeriesUp.deps.json
+D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp\bin\Debug\netstandard2.0\SeriesUp.dll
+D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp\bin\Debug\netstandard2.0\SeriesUp.pdb
+D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp\obj\Debug\netstandard2.0\SeriesUp.csprojAssemblyReference.cache
+D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp\obj\Debug\netstandard2.0\SeriesUp.csproj.CoreCompileInputs.cache
+D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp\obj\Debug\netstandard2.0\SeriesUp.AssemblyInfoInputs.cache
+D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp\obj\Debug\netstandard2.0\SeriesUp.AssemblyInfo.cs
+D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp\obj\Debug\netstandard2.0\SeriesUp.dll
+D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp\obj\Debug\netstandard2.0\SeriesUp.pdb
