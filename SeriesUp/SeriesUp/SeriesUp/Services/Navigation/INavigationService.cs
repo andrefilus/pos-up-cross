@@ -8,7 +8,7 @@ namespace SeriesUp.Services.Navigation
 {
     public interface INavigationService
     {
-        Task Initialize();
+        Task InitializeAsync();
         Task NavigateToAsync<TViewModel>() where TViewModel : ViewModelBase;
         Task NavigateToAsync<TViewModel>(object parameter) where TViewModel : ViewModelBase;
         Task NavigateToAsync(Type viewModelType);

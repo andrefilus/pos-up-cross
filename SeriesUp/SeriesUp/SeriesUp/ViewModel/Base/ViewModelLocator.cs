@@ -1,8 +1,11 @@
 ﻿using Autofac;
+using Refit;
+using SeriesUp.Infra;
+using SeriesUp.Infra.HttpTools;
+using SeriesUp.Services;
 using SeriesUp.Services.Navigation;
 using System;
-using System.Collections.Generic;
-using System.Text;
+using System.Net.Http;
 
 namespace SeriesUp.ViewModel.Base
 {
@@ -22,8 +25,22 @@ namespace SeriesUp.ViewModel.Base
             _containerBuilder = new ContainerBuilder();
 
             _containerBuilder.RegisterType<NavigationService>().As<INavigationService>();
+            _containerBuilder.RegisterType<SerieService>().As<ISerieService>();
+
             _containerBuilder.RegisterType<MainViewModel>();
             _containerBuilder.RegisterType<DetailViewModel>();
+
+            _containerBuilder.Register(api => 
+            {
+                var client = new HttpClient(new HttpLoggingHandler())
+                {
+                    BaseAddress = new Uri(AppSettings.ApiUrl),
+                    Timeout = TimeSpan.FromSeconds(90)
+                };
+
+                return RestService.For<ITmdbApi>(client);
+            }).As<ITmdbApi>().InstancePerDependency();
+
         }
 
         public T Resolve<T>()

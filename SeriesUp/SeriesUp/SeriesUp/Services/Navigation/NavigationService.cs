@@ -31,7 +31,7 @@ namespace SeriesUp.Services.Navigation
             _mappings.Add(typeof(DetailViewModel), typeof(DetailView));
         }
 
-        public async Task Initialize()
+        public async Task InitializeAsync()
         {
             await NavigateToAsync<MainViewModel>();
         }
@@ -65,19 +65,19 @@ namespace SeriesUp.Services.Navigation
             }
         }
         public Task NavigateToAsync<TViewModel>() where TViewModel : ViewModelBase
-                    => InternalNavigateToAsync(typeof(TViewModel), null);
+                    => InternalNavigationToAsync(typeof(TViewModel), null);
 
         public Task NavigateToAsync<TViewModel>(object parameter) where TViewModel : ViewModelBase
-            => InternalNavigateToAsync(typeof(TViewModel), parameter);
+            => InternalNavigationToAsync(typeof(TViewModel), parameter);
 
         public Task NavigateToAsync(Type viewModelType)
-            => InternalNavigateToAsync(viewModelType, null);
+            => InternalNavigationToAsync(viewModelType, null);
 
         public Task NavigateToAsync(Type viewModelType, object parameter)
-            => InternalNavigateToAsync(viewModelType, parameter);
+            => InternalNavigationToAsync(viewModelType, parameter);
 
 
-        async Task InternalNavigateToAsync(Type viewModelType, object parameter)
+        async Task InternalNavigationToAsync(Type viewModelType, object parameter)
         {
             Page page = CreateAndBingPage(viewModelType, parameter);
 

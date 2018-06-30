@@ -99,6 +99,7 @@ D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp.Andr
 D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp.Android\obj\Debug\android\assets\Xamarin.Forms.Core.pdb
 D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.pdb
 D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp.Android\bin\Debug\SeriesUp.Android.dll
+D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp.Android\obj\Debug\linksrc\SeriesUp.pdb
 D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp.Android\obj\Debug\linksrc\SeriesUp.Android.dll.mdb
 D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp.Android\obj\Debug\linksrc\FormsViewGroup.dll.mdb
 D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp.Android\obj\Debug\linksrc\Xamarin.Forms.Platform.Android.dll.mdb

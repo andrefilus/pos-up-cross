@@ -56,3 +56,11 @@ D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp.iOS\
 D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp.iOS\obj\iPhoneSimulator\Debug\SeriesUp.iOS.csproj.CopyComplete
 D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp.iOS\obj\iPhoneSimulator\Debug\SeriesUp.iOS.exe
 D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp.iOS\obj\iPhoneSimulator\Debug\SeriesUp.iOS.pdb
+D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp.iOS\bin\iPhoneSimulator\Debug\Newtonsoft.Json.dll
+D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp.iOS\bin\iPhoneSimulator\Debug\Refit.dll
+D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp.iOS\bin\iPhoneSimulator\Debug\System.IO.Compression.dll
+D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp.iOS\bin\iPhoneSimulator\Debug\System.Net.Http.dll
+D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp.iOS\bin\iPhoneSimulator\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp.iOS\bin\iPhoneSimulator\Debug\System.Security.Cryptography.Algorithms.dll
+D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp.iOS\bin\iPhoneSimulator\Debug\System.Security.Cryptography.Encoding.dll
+D:\Documents\Pós-Graduação\Xamarin\PosUpCross\SeriesUp\SeriesUp\SeriesUp.iOS\bin\iPhoneSimulator\Debug\System.Security.Cryptography.X509Certificates.dll

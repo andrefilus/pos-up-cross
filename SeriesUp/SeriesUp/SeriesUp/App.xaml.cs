@@ -20,7 +20,7 @@ namespace SeriesUp
         async void IniNavigation()
         {
             var navigationService = ViewModelLocator.Instance.Resolve<INavigationService>();
-            await navigationService.Initialize();
+            await navigationService.InitializeAsync();
         }
 
         private void BuildDependencies()
