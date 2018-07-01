@@ -45,6 +45,6 @@ namespace SeriesUp.Models
         public string Poster { get { return $"{AppSettings.ApiImageBaseUrl}{PosterPath}"; } }
 
         [JsonIgnore]
-        public string ReleaseDate { get { return $"{FirstAirDate:dd/mm/yyyy}"; } }
+        public string ReleaseDate { get { return $"{FirstAirDate:dd/MM/yyyy}"; } }
     }
 }
