@@ -50,6 +50,20 @@ namespace SeriesUp.ViewModel
             set { _releaseDate = value; OnPropertyChanged(); }
         }
 
+        int _totalVotes;
+        public int TotalVotes
+        {
+            get { return _totalVotes; }
+            set { _totalVotes = value; OnPropertyChanged(); }
+        }
+
+        string _language;
+        public string Language
+        {
+            get { return _language; }
+            set { _language = value; OnPropertyChanged(); }
+        }
+
         public DetailViewModel() : base("")
         {
 
@@ -67,6 +81,8 @@ namespace SeriesUp.ViewModel
             Backdrop = serie.Backdrop;
             ReleaseDate = serie.ReleaseDate;
             Votes = serie.VoteAverage;
+            TotalVotes = serie.VoteCount;
+            Language = serie.OriginalLanguage;
 
             await base.InitializeAsync(parameter);            
         }

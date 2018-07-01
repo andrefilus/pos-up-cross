@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:behaviors="clr-namespace:SeriesUp.Behaviors;assembly=SeriesUp"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="SeriesUp.Views.MainView">
+             x:Class="SeriesUp.Views.MainView"
+             Title="Series UP">
     <ContentPage.Content>
         <ListView
            VerticalOptions="FillAndExpand"
@@ -15,13 +16,13 @@
 
             <ListView.ItemTemplate>
                 <DataTemplate>
-                <ViewCell>
-                    <StackLayout 
+                    <ViewCell>
+                        <StackLayout 
                         Orientation="Horizontal"
                         VerticalOptions="FillAndExpand"
                         HorizontalOptions="FillAndExpand">
 
-                        <Image 
+                            <Image 
                             Source="{Binding Poster}"
                             VerticalOptions="Start"
                             HorizontalOptions="Start"
@@ -31,12 +32,12 @@
                                 <Label Text="{Binding Name}" FontSize="Medium" />
                                 <Label Text="{Binding OriginalName}" FontSize="Small"/>
                             </StackLayout>
-                        
-                    </StackLayout>
-                </ViewCell>
+
+                        </StackLayout>
+                    </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
-            
+
         </ListView>
     </ContentPage.Content>
 </ContentPage>

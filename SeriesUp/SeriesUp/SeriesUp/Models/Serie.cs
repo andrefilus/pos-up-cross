@@ -35,10 +35,16 @@ namespace SeriesUp.Models
         [JsonProperty("poster_path")]
         public string PosterPath { get; set; }
 
+        [JsonProperty("original_language")]
+        public string OriginalLanguage { get; set; }
+
+        [JsonProperty("vote_count")]
+        public int VoteCount { get; set; }
+
         [JsonIgnore]
         public string Poster { get { return $"{AppSettings.ApiImageBaseUrl}{PosterPath}"; } }
 
         [JsonIgnore]
-        public string ReleaseDate { get { return $"{FirstAirDate:dd/mm/yy}"; } }
+        public string ReleaseDate { get { return $"{FirstAirDate:dd/mm/yyyy}"; } }
     }
 }

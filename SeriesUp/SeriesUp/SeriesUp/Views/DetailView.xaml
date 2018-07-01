@@ -4,10 +4,45 @@
              Title="{Binding Title}"
              x:Class="SeriesUp.Views.DetailView">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView Orientation="Vertical">
+        <StackLayout Padding="10" Orientation="Vertical">
+            <Image 
+                    Source="{Binding Poster}"
+                    VerticalOptions="Start"
+                    HorizontalOptions="FillAndExpand"
+                    HeightRequest="200"/>
+            
+            <Label Text="{Binding Name}" FontSize="Medium" FontAttributes="Bold" TextColor="Black" Margin="0,10,0,0" />
+            <Label Text="{Binding Overview}" FontSize="Small"/>
+
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Release Date:" FontSize="Medium" FontAttributes="Bold" TextColor="Black"/>
+                <Label Text="{Binding ReleaseDate}" FontSize="Medium"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Votes:" FontSize="Medium" FontAttributes="Bold" TextColor="Black"/>
+                <Label Text="{Binding Votes}" FontSize="Medium"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Total Votes:" FontSize="Medium" FontAttributes="Bold" TextColor="Black"/>
+                <Label Text="{Binding TotalVotes}" FontSize="Medium"/>
+            </StackLayout>
+            
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Language:" FontSize="Medium" FontAttributes="Bold" TextColor="Black"/>
+                <Label Text="{Binding Language}" FontSize="Medium"/>
+            </StackLayout>
+
+            <Image 
+                    Source="{Binding Backdrop}"
+                    VerticalOptions="Start"
+                    HorizontalOptions="FillAndExpand"
+                    HeightRequest="200"/>
+
+                <Label Text="Developed by André Henrique Filus" FontSize="Small" TextColor="LightGray" Margin="0,10,0,0"/>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
